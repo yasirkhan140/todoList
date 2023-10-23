@@ -1,92 +1,94 @@
 /* whole todo app view */
-#todo-list-body{
-    position:fixed;
-    top:0%;
-    left:30%;
-    margin:auto;
-    height: 100%;
-    width:500px;
-    background-color:white;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    overflow-y:scroll;
-    overflow-x: hidden;
+#todo-list-body {
+  position: fixed;
+  top: 0%;
+  left: 30%;
+  margin: auto;
+  height: 100%;
+  width: 500px;
+  background-color: white;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 /* scroll bar hide */
-#todo-list-body::-webkit-scrollbar{
-    display: none;
+#todo-list-body::-webkit-scrollbar {
+  display: none;
 }
 /* todo app heading */
-#main-heading{
-    text-align:center;
-    color:grey;
+#main-heading {
+  text-align: center;
+  color: grey;
 }
 /* labels for input class */
-.form-label{
-    font-family: sans-serif;
-    margin:0;
-    color:rgb(51, 24, 24);
-    border-top: 1px solid black;
-    text-align: center;
+.form-label {
+  font-family: sans-serif;
+  margin: 0;
+  color: rgb(51, 24, 24);
+  border-top: 1px solid black;
+  text-align: center;
 }
 /* input typing bar class */
-.input-group{
-    height:50px;
-    border:none transparent;
-    background-color: aliceblue;
-    margin-bottom: 1px;
+.input-group {
+  height: 50px;
+  border: none transparent;
+  background-color: aliceblue;
+  margin-bottom: 1px;
 }
 /* input view borderless on typing/select */
-.input-group:focus{
-    outline:none;
+.input-group:focus {
+  outline: none;
 }
 /* Add task button */
-.add-task-btn{
-    position: absolute;
-    top:36.8%;
-    left:23%;
-    background-color: aqua !important;
-    transform: all 0.5s;
+.add-task-btn {
+  position: absolute;
+  top: 36.8%;
+  left: 23%;
+  background-color: aqua !important;
+  transform: all 0.5s;
 }
-.add-task-btn:hover{
-    width:22%;
-    height:40px;
-    background-color: rgb(77, 156, 128) !important;
+.add-task-btn:hover {
+  width: 22%;
+  height: 40px;
+  background-color: rgb(77, 156, 128) !important;
 }
 /* description view */
-#description{
-    color:rgb(54, 52, 52);
-    font-family: sans-serif;
-    font-weight: 550;
+#description {
+  color: rgb(54, 52, 52);
+  font-family: sans-serif;
+  font-weight: 550;
 }
 /* category view */
-#category{
-    position:absolute;
-    left:75%;
-    width:80px;
-    height:40px;
-    text-align: center;
+#category {
+  position: absolute;
+  left: 75%;
+  width: 80px;
+  height: 40px;
+  text-align: center;
 }
 /* date view */
-#date{
-    position: relative;
-    color:rgb(63, 54, 54);
+#date {
+  position: relative;
+  color: rgb(63, 54, 54);
 }
 /* delete button */
-#delete-btn{
-    position: absolute;
-    left:50%;
-    top:37.4%;
-    background-color: red;
+#delete-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: red;
 }
-#delete-btn:hover{
-    width:28%;
-    height:40px;
-    background-color: rgb(228, 77, 77);
+#delete-btn:hover {
+  width: 28%;
+  height: 40px;
+  background-color: rgb(228, 77, 77);
 }
 /* check box */
-#input{
-    position: relative;
-    left:-10px;
-    
+#input {
+  position: relative;
+  left: -10px;
+}
+.position-inherit {
+  position: inherit;
 }
